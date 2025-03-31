@@ -1,0 +1,24 @@
+﻿<Window x:Class="Mebel.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mebel"
+        mc:Ignorable="d"
+        Title="Menu" Height="341" Width="534" ResizeMode="NoResize" WindowStyle="None">
+    <Grid>
+        <Image Source="/mid-century-modern-living-room-interior-design-with-monstera-tree.jpg" Height="592" VerticalAlignment="Top" HorizontalAlignment="Center" Width="546"/>
+        <Image Margin="226,-5,0,0" Source="/Metmebel.png" Height="330" VerticalAlignment="Top" HorizontalAlignment="Left" Width="338"/>
+        <Image  HorizontalAlignment="Left" Height="28" Margin="497,6,0,0" VerticalAlignment="Top" Width="27" MouseDown="CloseWindow" Source="/icons8-удалить — копия.png" />
+        <Image  HorizontalAlignment="Left" Height="28" Margin="450,6,0,0" VerticalAlignment="Top" Width="28" MouseDown="BaceWindow" Source="/icons8-left-arrow-32.png"/>
+        <Label Content="Для директора" HorizontalAlignment="Left" VerticalAlignment="Top" Width="154" Foreground="#FFEA9FCD" FontSize="18" FontFamily="MV Boli" Margin="370,286,0,0"/>
+        <Button x:Name="Mebel" Content="База данных мебели" HorizontalAlignment="Left" Margin="84,106,0,0" VerticalAlignment="Top" Width="183" Height="34" Background="#c9c0bb" FontSize="14" FontFamily="Script MT Bold" Foreground="#0a0a0a" Click="Mebel_Click"/>
+        <Button x:Name="Clients" Content="База данных клиентов" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="147" Height="35" Background="#c9c0bb" FontSize="14" FontFamily="Script MT Bold" Foreground="#0a0a0a" Click="Clients_Click"/>
+        <Button x:Name="Orders" Content="База данных заказов" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="147" Height="35" Background="#c9c0bb" FontSize="14" FontFamily="Script MT Bold" Foreground="#0a0a0a" Click="Orders_Click"/>
+        <Button x:Name="Providers" Content="База данных поставщиков" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="178" Height="35" Background="#c9c0bb" FontSize="14" FontFamily="Script MT Bold" Foreground="#0a0a0a" Click="Providers_Click"/>
+        <Button x:Name="Personal" Content="База данных персонала" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="178" Height="35" Background="#c9c0bb" FontSize="14" FontFamily="Script MT Bold" Foreground="#0a0a0a" Click="Personal_Click"/>
+
+
+
+    </Grid>
+</Window>
